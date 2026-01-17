@@ -1,0 +1,79 @@
+# Cordova 项目 .gitignore
+
+# Platforms
+platforms/
+
+# Plugins
+plugins/
+
+# Node modules
+node_modules/
+
+# Build outputs
+*.apk
+*.aab
+*.ipa
+
+# Gradle
+.gradle/
+*.keystore
+build/
+
+# Android
+*.iml
+.idea/
+local.properties
+*.log
+
+# iOS
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# 签名配置（重要：不要提交密钥！）
+build.json
+*.keystore
+keystore.properties
+release-signing.properties
+debug-signing.properties
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Package manager
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Cordova hooks
+hooks/
+
+# 构建脚本输出
+live-server.log
+
+# Gradle properties (may contain sensitive info)
+gradle.properties
